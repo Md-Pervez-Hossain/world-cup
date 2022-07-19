@@ -251,5 +251,8 @@ hr {
   .footer-link {
     flex-direction: column;
   }
+  footer {
+    width: 100%;
+  }
 }
 /* media quiery end */

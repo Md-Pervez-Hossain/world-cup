@@ -213,12 +213,7 @@ hr {
     font-size: 30px;
     line-height: 40px;
   }
-  .header-img {
-    width: 100%;
-  }
-  .header-info {
-    width: 100%;
-  }
+
   .header-wrapper {
     flex-direction: column;
     text-align: center;

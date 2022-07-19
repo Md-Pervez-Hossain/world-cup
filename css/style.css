@@ -189,6 +189,7 @@ hr {
     background-color: transparent;
     flex-direction: row;
     justify-content: flex-start;
+
     margin-bottom: 50px;
     gap: 50px;
     height: 0;
@@ -212,9 +213,15 @@ hr {
     font-size: 30px;
     line-height: 40px;
   }
-
+  .header-img {
+    width: 100%;
+  }
+  .header-info {
+    width: 100%;
+  }
   .header-wrapper {
     flex-direction: column;
+    text-align: center;
   }
   .header-img img {
     margin-top: 50px;
@@ -250,9 +257,6 @@ hr {
 
   .footer-link {
     flex-direction: column;
-  }
-  footer {
-    width: 100%;
   }
 }
 /* media quiery end */

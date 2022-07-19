@@ -189,9 +189,7 @@ hr {
     background-color: transparent;
     flex-direction: row;
     justify-content: flex-start;
-
     margin-bottom: 50px;
-    gap: 50px;
     height: 0;
   }
   .side-btn {
@@ -202,6 +200,10 @@ hr {
     padding: 5px 15px;
     border-radius: 3px;
     box-shadow: 4px 4px 40px lightgray;
+  }
+  .active-btn {
+    background-color: orange;
+    color: white;
   }
 
   .blog-wrapper {
@@ -259,4 +261,5 @@ hr {
     flex-direction: column;
   }
 }
+
 /* media quiery end */

@@ -301,4 +301,7 @@ hr {
   .header-info h2 {
     font-size: 70px;
   }
+  .blog-wrapper {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }

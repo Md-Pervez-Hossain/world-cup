@@ -226,3 +226,39 @@ hr {
     flex-direction: column;
   }
 }
+@media screen and (min-width: 689px) and (max-width: 992px) {
+  .container {
+    width: 100%;
+  }
+  .wrapper {
+    flex-direction: column;
+  }
+  .sidebar {
+    background-color: transparent;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    width: 80%;
+    height: 50px;
+  }
+  .blog-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .header-info {
+    width: 50%;
+  }
+  .header-img {
+    width: 50%;
+  }
+  .header-img img {
+    width: 100%;
+  }
+  .header-info h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .side-btn {
+    box-shadow: 4px 4px 40px lightgray;
+    font-size: 20px;
+  }
+}

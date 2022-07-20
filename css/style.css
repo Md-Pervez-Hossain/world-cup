@@ -285,7 +285,7 @@ hr {
     gap: 20px;
     justify-content: center;
     width: 400px;
-    height: 350px;
+    height: 50px;
     background-color: transparent;
   }
   .blog-wrapper {
@@ -324,8 +324,10 @@ hr {
     align-items: center;
     width: 400px;
     height: 250px;
-
     background-color: transparent;
+  }
+  .blog-img img {
+    width: 100%;
   }
   .blog-wrapper {
     grid-template-columns: repeat(1, 1fr);

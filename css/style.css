@@ -64,10 +64,21 @@ body {
 .blog {
   margin: 50px 0;
 }
+
 .blog-img {
   display: flex;
   gap: 30px;
 }
+
+.blog-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.blog-img1 img {
+  width: 100%;
+}
+
 .sidebar {
   display: flex;
   flex-direction: column;
@@ -95,11 +106,6 @@ body {
   background-color: orange;
   padding: 5px 15px;
   border-radius: 3px;
-}
-.blog-wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
 }
 .wrapper {
   display: flex;

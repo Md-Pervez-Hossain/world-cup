@@ -28,10 +28,31 @@ body {
   color: #fff;
   margin-bottom: 0;
   line-height: 85px;
+  /* width: 0ch;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 5s steps(28) infinite alternate; */
 }
-.header-info h1 span {
-  color: orange;
+.header-info h2 {
+  font-size: 40px;
+  color: #fff;
+  margin-bottom: 0;
+  margin-top: 0;
+  line-height: 85px;
+  width: 0ch;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 5s steps(8) infinite alternate;
 }
+@keyframes typing {
+  0% {
+    width: 0ch;
+  }
+  50% {
+    width: 8ch;
+  }
+}
+
 .header-info p {
   font-weight: 400;
   font-size: 16px;
@@ -54,11 +75,13 @@ body {
   border-radius: 30px;
   transition: all 0.3s ease;
 }
+
 .btn:hover {
   background-color: transparent;
   border: 1px solid orange;
   color: orange;
 }
+
 /* header style end */
 /* blog style start */
 .blog {
@@ -274,5 +297,8 @@ hr {
 @media screen and (min-width: 993px) {
   .view-more {
     display: none;
+  }
+  .header-info h2 {
+    font-size: 70px;
   }
 }

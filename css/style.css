@@ -273,6 +273,8 @@ hr {
   .sidebar {
     background-color: transparent;
     flex-direction: row;
+    width: 400px;
+    height: 50px;
   }
   .blog-wrapper {
     grid-template-columns: repeat(1, 1fr);

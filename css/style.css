@@ -6,7 +6,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 .container {
-  width: 992px;
+  max-width: 992px;
   margin: 0 auto;
 }
 /* header style start */
@@ -298,10 +298,6 @@ hr {
   }
 }
 @media screen and (max-width: 576px) {
-  .container {
-    max-width: 576px;
-    margin: 0 auto;
-  }
   .header-wrapper {
     flex-direction: column;
     text-align: center;
@@ -334,5 +330,8 @@ hr {
   }
   footer {
     width: 100%;
+  }
+  .footer-link {
+    flex-direction: column;
   }
 }

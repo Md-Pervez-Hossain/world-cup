@@ -197,9 +197,7 @@ hr {
     font-size: 40px;
     line-height: 50px;
   }
-  .wrapper {
-    grid-template-columns: repeat(1, 1fr);
-  }
+
   .sidebar {
     background-color: transparent;
     flex-direction: row;

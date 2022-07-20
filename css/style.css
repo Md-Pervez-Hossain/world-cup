@@ -6,7 +6,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 .container {
-  max-width: 992px;
+  max-width: 80%;
   margin: 0 auto;
 }
 /* header style start */
@@ -210,7 +210,7 @@ hr {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media screen and (max-width: 668px) {
+@media screen and (max-width: 767px) {
   .header-info h1 {
     font-size: 30px;
     line-height: 40px;
@@ -252,7 +252,6 @@ hr {
     font-size: 16px;
     margin-top: 20px;
   }
-
   .blog-wrapper {
     grid-template-columns: repeat(1, 1fr);
   }

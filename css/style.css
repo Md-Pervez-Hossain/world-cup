@@ -84,7 +84,7 @@ body {
   flex-direction: column;
   gap: 20px;
   justify-content: center;
-  width: 200px;
+  width: 400px;
   height: 200px;
   background-color: #161616;
   padding: 20px;
@@ -316,7 +316,6 @@ hr {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    justify-content: center;
     align-items: center;
     width: 400px;
     height: 250px;

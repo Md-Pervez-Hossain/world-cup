@@ -197,7 +197,6 @@ hr {
     font-size: 40px;
     line-height: 50px;
   }
-
   .sidebar {
     background-color: transparent;
     flex-direction: row;
@@ -219,7 +218,6 @@ hr {
     background-color: orange;
     color: white;
   }
-
   .blog-wrapper {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -262,12 +260,13 @@ hr {
     color: #fff;
   }
 
+  .blog-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
   .btn {
     font-size: 16px;
     margin-top: 20px;
-  }
-  .blog-wrapper {
-    grid-template-columns: repeat(1, 1fr);
   }
 
   .footer-link {

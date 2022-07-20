@@ -257,6 +257,10 @@ hr {
   .header-info {
     width: 100%;
   }
+  .header-info h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
   .header-img {
     width: 100%;
   }

@@ -138,6 +138,7 @@ article {
   box-shadow: 4px 4px 40px lightgray;
   border-radius: 10px;
 }
+
 /* blog style end */
 /* footer style start */
 footer {
@@ -218,6 +219,9 @@ hr {
     margin-bottom: 30px;
     width: 80%;
   }
+  .view-more {
+    display: none;
+  }
 
   .blog-wrapper {
     grid-template-columns: repeat(1, 1fr);
@@ -261,5 +265,14 @@ hr {
   .side-btn {
     box-shadow: 4px 4px 40px lightgray;
     font-size: 20px;
+  }
+  .view-more {
+    text-align: center;
+    margin-top: 40px;
+  }
+}
+@media screen and (min-width: 993px) {
+  .view-more {
+    display: none;
   }
 }

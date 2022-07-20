@@ -251,6 +251,9 @@ hr {
   }
 } */
 @media screen and (max-width: 688px) {
+  .container {
+    width: 100%;
+  }
   .header-wrapper {
     flex-direction: column;
   }

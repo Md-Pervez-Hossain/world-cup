@@ -333,4 +333,7 @@ hr {
   .blog-wrapper {
     grid-template-columns: repeat(4, 1fr);
   }
+  .header-info h2 {
+    font-size: 70px;
+  }
 }
